@@ -55,7 +55,9 @@
         <h2 class="carrossel__titulo">Novos Laçamentos</h2>
         <!-- Slider main container -->
         <div class="swiper">
-            <!-- Additional required wrapper -->
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+            
             <div class="swiper-wrapper">
             <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre Apache Kafka"></div>
             <div class="swiper-slide"><img src="img/Liderança.svg" alt="Livro sobre Liderança"></div>
@@ -64,8 +66,6 @@
             <div class="swiper-slide"><img src="img/UX.svg" alt="Livro sobre UX"></div>
             <div class="swiper-slide"><img src="img/Angular.svg" alt="Livro sobre Angular"></div>
         </div>
-            <!-- If we need pagination -->
-            <div class="swiper-pagination"></div>
         
             <!-- If we need navigation buttons -->
             <div class="swiper-button-prev"></div>
@@ -81,6 +81,11 @@
         const swiper = new Swiper('.swiper', {
         spaceBetween: 10,
         slidesPerView: 3,
+        Swiper('.swiper', {
+        pagination: {
+            el: '.swiper-pagination',
+            type: 'bullets',
+        },
     });
     </script>
 </body>
