@@ -67,7 +67,8 @@
 }
 
 @media screen and (min-width: 1024px) {
-    .container__titulo, .container__titulo--negrito {
+    .container__titulo, 
+    .container__titulo--negrito {
         font-family: var(--fonte-secundario);
         font-size: 30px;
     }
@@ -95,7 +96,7 @@
         color: var(--preto);
     }
 
-    container__imagem-transparente {
+    .container__imagem-transparente {
         display: none;
     }
 }
