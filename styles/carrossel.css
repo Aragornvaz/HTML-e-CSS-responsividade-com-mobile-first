@@ -95,6 +95,10 @@
         width: 60%;
         margin: 2rem auto;
     }
+}
 
-    
+@media screen and (min-width: 1728px) {
+    .carrossel__container {
+        display: flex;
+    }
 }
