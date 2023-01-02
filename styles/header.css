@@ -124,6 +124,20 @@
     .opções__botão {
         display: none;
     }
+
+    .opções__botão:checked ~ .oplçoes__rotulo> .opções__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+        text-decoration: none;
+    }
+
+    .lista-menu__item:hover > .lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+    }
 }
 
 @media screen and (min-width: 1728px) {
