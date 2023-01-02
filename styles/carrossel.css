@@ -90,5 +90,10 @@
         top: 35%;
     }
 
+    .card {
+        width: 40%;
+        margin: 0 auto;
+    }
+
     
 }
