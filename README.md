@@ -11,4 +11,4 @@
 
 
 ## Screenshots
-![Screenshot da tela inicial do Site](img/Screeshots.png)
+![Screenshot da tela inicial do Site](img/Screeshots.png) 
